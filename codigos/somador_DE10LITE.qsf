@@ -1,6 +1,6 @@
 # -------------------------------------------------------------------------- #
 # QSF corrigido para a placa DE10-Lite (Intel/Altera/Terasic)
-# Projeto: Definitivo (Sign-magnitude Adder)
+# Projeto: somador (Sign-magnitude Adder)
 # Entidade top-level: somador  (portas: SW_A, SW_B, HEX0..HEX5)
 # -------------------------------------------------------------------------- #
 
