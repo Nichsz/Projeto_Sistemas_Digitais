@@ -1,7 +1,7 @@
 # -------------------------------------------------------------------------- #
 # QSF corrigido para a placa DE10-Lite (Intel/Altera/Terasic)
 # Projeto: Definitivo (Sign-magnitude Adder)
-# Entidade top-level: Definitivo  (portas: SW_A, SW_B, HEX0..HEX5)
+# Entidade top-level: somador  (portas: SW_A, SW_B, HEX0..HEX5)
 # -------------------------------------------------------------------------- #
 
 set_global_assignment -name FAMILY "MAX 10 FPGA"
