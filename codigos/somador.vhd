@@ -45,6 +45,10 @@ begin
             max      <= mag_a;
             min      <= mag_b;
             sign_sum <= sign_a;
+        elsif mag_a = mag_b then
+            max      <= mag_a;
+            min      <= mag_b;
+            sign_sum <= '0';
         else
             max      <= mag_b;
             min      <= mag_a;
