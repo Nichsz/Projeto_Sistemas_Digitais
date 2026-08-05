@@ -25,7 +25,7 @@ architecture arch of somador is
     signal a, b                     : std_logic_vector(N-1 downto 0);
     signal mag_a, mag_b             : unsigned(N-2 downto 0);
     signal mag_sum, max, min        : unsigned(N-2 downto 0);
-    signal sign_a, sign_b, sign_sum : std_logic;
+    signal sign_a, sign_b, sign_sum, sign_temp : std_logic;
 
     signal hex_val_a, hex_val_b, hex_val_sum : std_logic_vector(3 downto 0);
 
@@ -42,21 +42,19 @@ begin
     process(mag_a, mag_b, sign_a, sign_b)
     begin
         if mag_a > mag_b then
-            max      <= mag_a;
-            min      <= mag_b;
-            sign_sum <= sign_a;
-        elsif mag_a = mag_b then
-            max      <= mag_a;
-            min      <= mag_b;
-            sign_sum <= '0';
+            max <= mag_a;
+            min <= mag_b;
+            sign_temp <= sign_a;
         else
-            max      <= mag_b;
-            min      <= mag_a;
-            sign_sum <= sign_b;
+            max <= mag_b;
+            min <= mag_a;
+            sign_temp <= sign_b;
         end if;
     end process;
 
     mag_sum <= max + min when sign_a = sign_b else max - min;
+	 
+	 sign_sum <= '0' when mag_sum = 0 else sign_temp;
 
     -- HEX5: Sinal de A
     HEX5 <= "10111111" when sign_a = '1' else "11111111";
