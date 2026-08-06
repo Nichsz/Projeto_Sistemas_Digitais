@@ -47,5 +47,5 @@ Trabalho acadêmico desenvolvido em colaboração pelos integrantes:
 ## Artigo e Apresentação
 Se deseja saber mais sobre o nosso projeto, acesse os documentos abaixo:
 
-*   [📘 Artigo Científico - (PDF)](documentos/Artigo_AED2.pdf)
-*   [📊 Slides da Apresentação (PDF)](documentos/Apresentação_AED2.pdf)
+*   [📘 Artigo Científico - (PDF)](resultados/Artigo_SD.pdf)
+*   [📊 Vídeo Resultado - (MP4)](resultados/resultado_FPGA.mp4)
