@@ -44,7 +44,7 @@ Trabalho acadêmico desenvolvido em colaboração pelos integrantes:
 ---
 
 
-## Artigo e Apresentação
+## Artigo e Vídeo
 Se deseja saber mais sobre o nosso projeto, acesse os documentos abaixo:
 
 *   [📘 Artigo Científico - (PDF)](resultados/Artigo_SD.pdf)
