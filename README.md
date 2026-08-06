@@ -11,7 +11,7 @@ Este repositório contém a implementação prática e os dados experimentais de
 ---
 
 ## Resumo do Projeto
-
+Este relatório descreve o desenvolvimento, simulação e implementação de um somador sinal-magnitude de 4 bits descrito em VHDL, simulado no GTKWave, sintetizado no Quartus Prime Lite e implementado em uma placa FPGA DE10-Lite. O projeto teve como principal objetivo validar o comportamento do circuito, especialmente nos casos de _overflow_. A metodologia adotada envolveu a modelagem do código em VHDL e validação dos resultados utilizando o software de simulação GTKWave. As simulações confirmaram o truncamento nos casos onde houve _overflow_. Após a verificação em _software_, o sistema foi sintetizado no Quartus Prime Lite e implementado na placa, usando chaves deslizantes e _displays_ de sete segmentos. Os testes práticos confirmaram o comportamento simulado, apresentando plena equivalência e demonstrando o êxito do projeto.
 
 ---
 
