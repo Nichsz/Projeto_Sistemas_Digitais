@@ -47,5 +47,5 @@ Trabalho acadêmico desenvolvido em colaboração pelos integrantes:
 ## Artigo e Vídeo
 Se deseja saber mais sobre o nosso projeto, acesse os documentos abaixo:
 
-*   [📘 Artigo Científico - (PDF)](resultados/Artigo_SD.pdf)
+*   [📘 Artigo Científico - (PDF)](resultados/Projeto_SD.pdf)
 *   [📊 Vídeo FPGA - (MP4)](resultados/resultado_FPGA.mp4)
